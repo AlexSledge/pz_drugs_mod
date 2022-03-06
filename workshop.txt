@@ -1,0 +1,6 @@
+version=1
+id=2774381673
+title=Drugs
+description=Add drugs in project zomboid
+tags=Build 41;Items;Multiplayer;Silly/Fun
+visibility=friendsOnly
