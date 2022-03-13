@@ -7,12 +7,11 @@ module DRG
     item Cocaine
     {
         Type                     = Food,
-        DisplayName              = Marijuana joint,
+        DisplayName              = Cocaine pack,
         Icon                     = Cocaine,
         Weight                   = 0.1,
         CustomEatSound           = fire_marijuana,
         HungerChange             = 15,
-        RequireInHandOrInventory = Lighter/Matches,
         StressChange             = -20,
         CantBeFrozen             = TRUE,
         AlwaysWelcomeGift        = TRUE,
@@ -23,8 +22,8 @@ module DRG
         Calories                 = 0,
         Alcoholic                = TRUE,
         UseSelf                  = TRUE,
-        CantEat                  = TRUE,
-        CustomContextMenu        = Smoke,
-        DisplayCategory          = Drugs
+        CantEat                  = FALSE,
+        CustomContextMenu        = Sniff,
+        DisplayCategory          = Food
     }
 }

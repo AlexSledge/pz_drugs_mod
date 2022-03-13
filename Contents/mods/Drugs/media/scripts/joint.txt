@@ -23,7 +23,7 @@ module DRG
         Calories                 = 0,
         Alcoholic                = TRUE,
         UseSelf                  = TRUE,
-        CantEat                  = TRUE,
+        CantEat                  = FALSE,
         CustomContextMenu        = Smoke,
         DisplayCategory          = Drugs
     }

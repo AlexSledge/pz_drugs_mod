@@ -22,11 +22,11 @@ module DRG
         Alcoholic                = TRUE,
         UseSelf                  = TRUE,
         CustomContextMenu 		 = Inject,
-        DisplayCategory          = Drugs,
+        DisplayCategory          = Medicine,
         ReplaceOnUse             = Syringe,
         Poison                   = true,
         UseForPoison             = true,
-        PoisonPower              = 80,
+        PoisonPower              = 80
 
     }
 }

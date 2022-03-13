@@ -7,21 +7,21 @@ module DRG
     item Heroin_Powder
     {
         Type                     = Food,
-        DisplayName              = Heroin_Powder,
+        DisplayName              = Heroin powder,
         Icon                     = Heroin_Powder,
         Weight                   = 0.1,
         CustomEatSound           = fire_marijuana,
         HungerChange             = 15,
-        RequireInHandOrInventory = Lighter/Matches,
         StressChange             = -20,
         CantBeFrozen             = TRUE,
         AlwaysWelcomeGift        = TRUE,
         Proteins                 = 0,
         Lipids                   = 0,
         Calories                 = 0,
+        CustomContextMenu        = Sniff,
         Alcoholic                = TRUE,
         UseSelf                  = TRUE,
-        CantEat                  = TRUE,
-        DisplayCategory          = Drugs
+        CantEat                  = FALSE,
+        DisplayCategory          = Medicine
     }
 }

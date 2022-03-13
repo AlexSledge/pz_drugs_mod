@@ -7,7 +7,7 @@ module DRG
     item Codeine
     {
         Type                     = Food,
-        DisplayName              = Marijuana joint,
+        DisplayName              = Codeine bottle,
         Icon                     = Codeine,
         Weight                   = 0.1,
         CustomEatSound           = fire_marijuana,
@@ -23,8 +23,8 @@ module DRG
         Calories                 = 0,
         Alcoholic                = TRUE,
         UseSelf                  = TRUE,
-        CantEat                  = TRUE,
-        CustomContextMenu        = Smoke,
-        DisplayCategory          = Drugs
+        CantEat                  = FALSE,
+        CustomContextMenu        = Drink,
+        DisplayCategory          = Medicine
     }
 }

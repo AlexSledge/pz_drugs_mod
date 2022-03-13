@@ -22,6 +22,6 @@ module DRG
         Alcoholic                = TRUE,
         UseSelf                  = TRUE,
         CantEat                  = TRUE,
-        DisplayCategory          = Drugs
+        DisplayCategory          = Medicine
     }
 }

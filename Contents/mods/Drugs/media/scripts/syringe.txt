@@ -10,6 +10,6 @@ module DRG
         DisplayName              = Empty syringe,
         Icon                     = Syringe,
         Weight                   = 0.1,
-        DisplayCategory          = Drugs
+        DisplayCategory          = Medicine
     }
 }
