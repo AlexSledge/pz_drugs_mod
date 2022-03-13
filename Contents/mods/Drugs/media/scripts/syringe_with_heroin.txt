@@ -24,9 +24,8 @@ module DRG
         DisplayCategory          = Item,
         ReplaceOnUse             = Syringe,
         Poison                   = true,
-        UseForPoison             = true,
         PoisonDetectionLevel     = 7,
-        PoisonPower              = 80,
+        PoisonPower              = 120,
         UseForPoison             = 38
 
     }

@@ -24,6 +24,7 @@ module DRG
         UseSelf                  = TRUE,
         CantEat                  = FALSE,
         CustomContextMenu        = Drink,
-        DisplayCategory          = Medicine
+        DisplayCategory          = Medicine,
+        CustomEatSound = DrinkingFromBottlePlastic
     }
 }
