@@ -4,11 +4,11 @@ module DRG
         Base
     }
 
-    item Marijuana
+    item Heroin_Powder
     {
         Type                     = Food,
-        DisplayName              = Marijuana,
-        Icon                     = Marijuana,
+        DisplayName              = Heroin_Powder,
+        Icon                     = Heroin_Powder,
         Weight                   = 0.1,
         CustomEatSound           = fire_marijuana,
         HungerChange             = 15,

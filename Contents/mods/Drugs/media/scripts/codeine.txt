@@ -1,0 +1,30 @@
+module DRG
+{
+    imports{
+        Base
+    }
+
+    item Codeine
+    {
+        Type                     = Food,
+        DisplayName              = Marijuana joint,
+        Icon                     = Codeine,
+        Weight                   = 0.1,
+        CustomEatSound           = fire_marijuana,
+        HungerChange             = 15,
+        RequireInHandOrInventory = Lighter/Matches,
+        StressChange             = -20,
+        CantBeFrozen             = TRUE,
+        AlwaysWelcomeGift        = TRUE,
+        ThirstChange             = 60,
+        UnhappyChange            = -20,
+        Proteins                 = 0,
+        Lipids                   = 0,
+        Calories                 = 0,
+        Alcoholic                = TRUE,
+        UseSelf                  = TRUE,
+        CantEat                  = TRUE,
+        CustomContextMenu        = Smoke,
+        DisplayCategory          = Drugs
+    }
+}

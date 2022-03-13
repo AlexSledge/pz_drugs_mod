@@ -1,0 +1,32 @@
+module DRG
+{
+    imports{
+        Base
+    }
+
+    item Syringe_With_Heroin
+    {
+        Type                     = Food,
+        DisplayName              = Syringe with Heroin,
+        Icon                     = Syringe_With_Heroin,
+        Weight                   = 0.2,
+        CustomEatSound           = fire_marijuana,
+        StressChange             = -200,
+        CantBeFrozen             = TRUE,
+        AlwaysWelcomeGift        = TRUE,
+        UnhappyChange            = -200,
+        ThirstChange             = 5,
+        Proteins                 = 0,
+        Lipids                   = 0,
+        Calories                 = 0,
+        Alcoholic                = TRUE,
+        UseSelf                  = TRUE,
+        CustomContextMenu 		 = Inject,
+        DisplayCategory          = Drugs,
+        ReplaceOnUse             = Syringe,
+        Poison                   = true,
+        UseForPoison             = true,
+        PoisonPower              = 80,
+
+    }
+}

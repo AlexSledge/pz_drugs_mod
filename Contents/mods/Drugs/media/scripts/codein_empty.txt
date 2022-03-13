@@ -1,0 +1,15 @@
+module DRG
+{
+    imports{
+        Base
+    }
+
+    item Codein_Empty
+    {
+        Type                     = Normal,
+        DisplayName              = Empty codein bottle,
+        Icon                     = Codein_Empty,
+        Weight                   = 0.1,
+        DisplayCategory          = Drugs
+    }
+}

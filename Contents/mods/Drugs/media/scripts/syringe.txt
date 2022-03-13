@@ -1,0 +1,15 @@
+module DRG
+{
+    imports{
+        Base
+    }
+
+    item Syringe
+    {
+        Type                     = Normal,
+        DisplayName              = Empty syringe,
+        Icon                     = Syringe,
+        Weight                   = 0.1,
+        DisplayCategory          = Drugs
+    }
+}
