@@ -12,7 +12,6 @@ module DRG
         Weight                   = 0.1,
         CustomEatSound           = fire_marijuana,
         HungerChange             = 15,
-        RequireInHandOrInventory = Lighter/Matches,
         StressChange             = -20,
         CantBeFrozen             = TRUE,
         AlwaysWelcomeGift        = TRUE,

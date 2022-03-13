@@ -13,7 +13,6 @@ module DRG
         CustomEatSound           = fire_marijuana,
         StressChange             = -200,
         CantBeFrozen             = TRUE,
-        AlwaysWelcomeGift        = TRUE,
         UnhappyChange            = -200,
         ThirstChange             = 5,
         Proteins                 = 0,
@@ -22,11 +21,13 @@ module DRG
         Alcoholic                = TRUE,
         UseSelf                  = TRUE,
         CustomContextMenu 		 = Inject,
-        DisplayCategory          = Medicine,
+        DisplayCategory          = Item,
         ReplaceOnUse             = Syringe,
         Poison                   = true,
         UseForPoison             = true,
-        PoisonPower              = 80
+        PoisonDetectionLevel     = 7,
+        PoisonPower              = 80,
+        UseForPoison             = 38
 
     }
 }

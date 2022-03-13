@@ -8,11 +8,10 @@ module DRG
     {
         Type                     = Food,
         DisplayName              = Codeine bottle,
-        Icon                     = Codeine,
+        Icon                     = Codein,
         Weight                   = 0.1,
         CustomEatSound           = fire_marijuana,
         HungerChange             = 15,
-        RequireInHandOrInventory = Lighter/Matches,
         StressChange             = -20,
         CantBeFrozen             = TRUE,
         AlwaysWelcomeGift        = TRUE,
